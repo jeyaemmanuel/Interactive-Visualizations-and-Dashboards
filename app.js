@@ -115,7 +115,6 @@ const gaugeData = [
  ]; 
  const gaugeLayout = {  width: 500, 
                   height: 400, 
-                  // margin: { t: 0, b: 0 }, 
                    };
 
  Plotly.newPlot('gauge', gaugeData, gaugeLayout); 
